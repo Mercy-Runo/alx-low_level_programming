@@ -19,7 +19,7 @@ int main(void)
 	s = n%10;
 	if (s > 5)
 	{
-		endString[] = "and is greater that 5";
+		endString[50] = "and is greater that 5";
 		printf("%s %d is %d %s\n", startString, n, s, endString);
 	}
 	else if (s == 0)
