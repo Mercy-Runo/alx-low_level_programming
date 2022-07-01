@@ -1,19 +1,25 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <unistd.h>
 
 /**
-*main - Prints all single digits of base 10 followed by new line
-*
-*Return: returns 0
-*/
+ * main - Entry point
+ * Description: prints lowercase alphabets
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
-	int digit;
+	int ch;
 
-	for (digit = '0'; digit <= '9'; digit++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(digit);
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		else
+		{
+		}
 	}
 	putchar('\n');
 	return (0);
