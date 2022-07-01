@@ -20,17 +20,17 @@ int main(void)
 	if (s > 5)
 	{
 		endString = "and is greater that 5";
-		printf("%c %d is %d %c\n", startString, n, s, endString);
+		printf("%s %d is %d %s\n", startString, n, s, endString);
 	}
 	else if (s == 0)
 	{
 		endString = "and is 0";
-		printf("%c %d is %d %c\n", startString, n, s, endString);
+		printf("%s %d is %d %s\n", startString, n, s, endString);
 	}
 	else if (s < 6 && s != 0)
         {
 		endString = "and is less than 6 and not 0";
-		printf("%c %d is %d %c\n", startString, n, s, endString);
+		printf("%s %d is %d %s\n", startString, n, s, endString);
 	}
 	return (0);
 }
