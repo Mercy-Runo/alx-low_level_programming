@@ -11,8 +11,8 @@
 int main(void)
 {
 	int n,s;
-	char startString = "Last digit of";
-	char endString = "";
+	char startString[] = "Last digit of";
+	char endString[] = "";
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
        	/* your code goes there */
@@ -22,7 +22,7 @@ int main(void)
 		endString = "and is greater that 5";
 		printf("%c %d is %d %c\n", startString, n, s, endString);
 	}
-	else if (s = 0)
+	else if (s == 0)
 	{
 		endString = "and is 0";
 		printf("%c %d is %d %c\n", startString, n, s, endString);
