@@ -1,23 +1,23 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - prints _putchar followed by a new line
+ * main - Prints _putchar
  *
- * Return: Always 0 (success)
- */
+ * Return: Always 0 (Success)
+ **/
 
 int main(void)
-
 {
-	char str[] = "_putchar\n";
-	int i = 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	while (str[i] != '\0')
-		{
-		char c = str[i];
-
-		_putchar(c);
-		i++;
-		}
 	return (0);
 }
