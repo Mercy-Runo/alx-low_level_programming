@@ -13,7 +13,7 @@ int main(void)
 {
 	char answer[] = "_putchar\n";
 
-	putchar(answer);
+	putchar(*answer);
 	return (0);
 }
 
