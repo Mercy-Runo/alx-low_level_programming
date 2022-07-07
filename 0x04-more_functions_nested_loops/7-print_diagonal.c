@@ -14,7 +14,7 @@ if (n > 0)
 {
 for (slash = 1; slash <= n; slash++)
 {
-for (space = 1; space < draw; space++)
+for (space = 1; space < slash; space++)
 _putchar(' ');
 _putchar('\\');
 _putchar('\n');
