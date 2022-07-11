@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "main.h"
+#include <string.h>
+
+/**
+ * _strlen - returns length of the string arguement
+ * @s: string whose length is returned
+ * Return: returns the length of the string
+ */
+
+int _strlen(char *s)
+{
+const char length = strlen(*s);
+
+return (length);
+}
