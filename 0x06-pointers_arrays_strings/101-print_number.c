@@ -1,10 +1,16 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * print - prints an integer using putchar only
  * @n: integer to be printed
  * Return: void
  */
+
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
 
 void print(int n)
 {
