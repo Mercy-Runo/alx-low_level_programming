@@ -20,8 +20,8 @@ int is_prime(int i, int j)
 	return (is_prime(i, j - 1));
 }
 
- /**
-  * is_prime_number - printing prime numbers
+/**
+  * is_prime_number - prints prime numbers
   * @n: input integer value
   *
   * Description: returns 1 if the input integer is a
