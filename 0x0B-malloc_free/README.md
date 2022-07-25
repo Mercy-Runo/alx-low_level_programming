@@ -1,0 +1,1 @@
+This directory contains all tasks of the malloc-free subtopic of the c low level programming course.
