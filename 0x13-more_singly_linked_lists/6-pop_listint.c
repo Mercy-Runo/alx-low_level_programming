@@ -8,19 +8,26 @@
 
 int pop_listint(listint_t **head)
 {
-	listint_t *ptr = *head;
-	int n;
+	int first_node;
+	listint_t *temp, *next;
 
-	if (ptr == NULL)
-	{
+	/*if list is empty return 0*/
+	if (*head == NULL)
 		return (0);
-	}
-	while (ptr != NULL)
-	{
-		/*ptr = *head;*/
-		*head = ptr->next;
-		n = ptr->n;
-		free(ptr);
-		return (n);
-	}
+
+	/*set head addr to temp*/
+	temp = *head;
+	/*get addr of next node*/
+	next = temp->next;
+	/*get element of first node*/
+	first_node = temp->n;
+
+	/*free first node*/
+	free(temp);
+
+	/*set head to second node*/
+	*head = next;
+
+	/*return element of first node*/
+	return (first_node);
 }
