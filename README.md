@@ -1,1 +1,1 @@
-This repo contains all tasks of c low level programming.
+This directory contains all tasks of the singly linked lists of the alx low level programming.
