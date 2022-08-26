@@ -14,15 +14,15 @@ int main(void)
 		if (number == 10)
 			result = 'A' - 16;
 		else if (number == 11)
-			result = 'B';
+			result = 'B' - 16;
 		else if (number == 12)
-			result = 'C';
+			result = 'C' - 16;
 		else if (number == 13)
-			result = 'D';
+			result = 'D' - 16;
 		else if (number == 14)
-			result = 'E';
+			result = 'E' - 16;
 		else if (number == 15)
-			result = 'F';
+			result = 'F' - 16;
 		else
 			result = number;
 
