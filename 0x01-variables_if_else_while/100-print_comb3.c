@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints all possible combinations of 2 digits
@@ -13,10 +14,16 @@ int main(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
+			if (i == j && i > j)
+				continue;
+
 			putchar(i + '0');
 			putchar(j + '0');
-			putchar(',');
-			putchar(' ');
+			if (stdout)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
