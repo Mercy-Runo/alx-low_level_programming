@@ -12,7 +12,7 @@ int main(void)
 	for (number = 0; number < 16; number++)
 	{
 		if (number == 10)
-			result = 97;
+			result = 'a';
 		else if (number == 11)
 			result = 98;
 		else if (number == 12)
