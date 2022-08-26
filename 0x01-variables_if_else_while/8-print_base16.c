@@ -12,11 +12,11 @@ int main(void)
 	for (number = 0; number < 16; number++)
 	{
 		if (number == 10)
-			result = 'a';
+			result = 'A' - 16;
 		else if (number == 11)
-			result = 98;
+			result = 'B';
 		else if (number == 12)
-			result = 99;
+			result = 'C';
 		else if (number == 13)
 			result = 'D';
 		else if (number == 14)
