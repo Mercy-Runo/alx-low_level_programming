@@ -12,7 +12,7 @@ int main(void)
 	for (number = 0; number < 16; number++)
 	{
 		if (number == 10)
-			result = 'A' - 16;
+			result = 'A' - 16;/*result = 65 - 16*/
 		else if (number == 11)
 			result = 'B' - 16;
 		else if (number == 12)
@@ -26,7 +26,7 @@ int main(void)
 		else
 			result = number;
 
-		putchar(result + '0');
+		putchar(result + '0');/*'0' has ASCII value of 48, hence output = result + 48*/
 	}
 	putchar('\n');
 
