@@ -1,21 +1,18 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
- *main - Program to print alphabet letter followed by new line
- *
- *Return: return 0
+ * main - prints all loer case letters
+ * Return: 0
  */
 
 int main(void)
 {
-	int letter;
+	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		letter = tolower(letter);
 		putchar(letter);
-	}
+
 	putchar('\n');
+
 	return (0);
 }
